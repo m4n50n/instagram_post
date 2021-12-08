@@ -14,6 +14,8 @@ pip3 install flask && python3 server.py
 
 <https://learn.breatheco.de/course/full-stack.v4/1/p/instagram-post>
 
+<https://github.com/breatheco-de/exercise-instagram-post/blob/master/strategy.gif?raw=true>
+
 ## Direct live demo 🎬
 
 <https://raw.githack.com/m4n50n/instagram_post/main/index.html>

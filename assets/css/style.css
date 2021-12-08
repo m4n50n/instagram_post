@@ -1,0 +1,121 @@
+/* #region GENERAL */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #000;
+  min-width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 55px 0px;
+  background-color: #fff;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+/* #endregion GENERAL */
+
+/* #region POST HEADER */
+.post-header {
+  padding: 10px 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header .title {
+  display: flex;
+  align-items: center;
+}
+
+.post-header .title .description {
+  padding: 0px 10px;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+i.fa-ellipsis-v {
+  font-size: 1.4em;
+}
+
+i.fa-html5 {
+  font-size: 1.8em;
+}
+/* #endregion POST HEADER */
+
+/* #region BODY */
+.post-body > img {
+  width: 100%;
+  object-position: top center;
+  object-fit: cover;
+}
+/* #endregion BODY */
+
+/* #region POST FOOTER */
+.footer {
+  background-color: #fff;
+  padding: 15px 20px;
+}
+
+i.far {
+  font-size: 1.8em;
+}
+
+.footer .icons-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.footer .icons-row .icons-left i {
+    padding-right: 8px;
+}
+
+.footer .description {
+    margin-top: 25px;
+}
+/* #endregion POST FOOTER */
+
+/* #region MEDIA QUERIES */
+/* Small */
+@media (min-width: 576px) { 
+  .container {
+    width: 90%;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) { 
+  .container {
+    width: 80%;
+  }
+}
+
+/* Large */
+@media (min-width: 992px) { 
+  .container {
+    width: 70%;
+  }
+}
+
+/* Extra large */
+@media (min-width: 1200px) { 
+  .container {
+    width: 60%;
+  }
+}
+/* #endregion MEDIA QUERIES */
